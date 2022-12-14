@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Yen Coding Portfolio </title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/globalAsset/style.css">
+    <script defer src="/globalAsset/script.js"></script>
+</head>
+
+<body>
+  <header>
+  <nav class="breadcrumb has-bullet-separator is-pulled-right" aria-label="breadcrumbs">
+    <ul>
+      <li>
+        <a href="index.html">
+        <span class="icon is-small">
+        <i class="fas fa-tree" aria-hidden="true"></i>
+        </span>
+        <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+        <span class="icon is-small">
+        <i class="fas fa-tree" aria-hidden="true"></i>
+        </span>
+        <span>About</span>
+        </a>
+        </li>
+      <li class="is-active">
+        <a href="work.html">
+        <span class="icon is-small">
+        <i class="fas fa-tree" aria-hidden="true"></i>
+        </span>
+        <span>Work</span>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+        <span class="icon is-small">
+        <i class="fas fa-tree" aria-hidden="true"></i>
+        </span>
+        <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  </header>
+
+  <br><br><br>
+
+  <div class="columns" id="workBox">
+    <div class="column">
+        <div class="box has-text-centered js-modal-trigger" data-target="modal-first-work" id="workText"> 
+            <h1> What-a-Crypto</h1> 
+        </div>
+    <div class="columns is-mobile">
+        <div class="column">
+        <div class="box has-text-centered js-modal-trigger" data-target="modal-second-work" id="workText"> 
+            <h2> Password Generator </h2> 
+        </div>
+    </div>
+    <div class="column">
+        <div class="box has-text-centered js-modal-trigger" data-target="modal-third-work" id="workText"> 
+            <h2> Coding Quiz </h2> 
+        </div>
+    </div>
+  </div>
+    <div class="columns is-mobile">
+      <div class="column">
+        <div class="box has-text-centered" id="workText"> 
+            <h2> placeholder </h2> 
+        </div>
+      </div>
+      <div class="column">
+        <div class="box has-text-centered" id="workText"> 
+            <h2> placeholder </h2> 
+        </div>
+      </div>
+    </div>
+    <div class="columns is-mobile">
+        <div class="column">
+          <div class="box has-text-centered" id="workText"> 
+              <h2> placeholder </h2> 
+          </div>
+        </div>
+        <div class="column">
+          <div class="box has-text-centered" id="workText"> 
+              <h2> placeholder </h2> 
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+     
+      <footer>
+      <div class="box is-shadowless has-text-centered" id="quoteBox">
+        <p1 id="quote-text"></p1>
+        <br>
+        <p2 id="quote-author"></p2>
+      </div>
+      </footer>
+
+      <div id="modal-first-work" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <div class="box">
+            <h1> What-a-Crypto </h1>
+            <br>
+            <a href="https://rbarbosa51.github.io/whatacrypto-crypto-game/">deployed application</a>
+            <br>
+            <a href="https://github.com/yhnguyen720/whatacrypto-crypto-game.git">github repo</a>
+            <br><br>
+            <p1> WhataCrypto is a cryptocurrency game that allows people to make decisions on how and when to buy and sell crypto. WhataCrypto promotes strategic thinking and gives people opportunities to learn in a low stakes environment. </p1>
+            <br><br>
+            <figure class="image is-3x4">
+                <img src="/globalAsset/images/crypto1.png">
+            </figure>
+            <figure class="image is-3x4">
+                <img src="/globalAsset/images/crypto2.png">
+            </figure>
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+
+      <div id="modal-second-work" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <div class="box">
+            <h1> Password Generator </h1>
+            <br>
+            <a href="https://yhnguyen720.github.io/password-generator/">deployed application</a>
+            <br>
+            <a href="https://github.com/yhnguyen720/password-generator.git">github repo</a>
+            <br><br>
+            <p1> This application generates a random password given user input such as length and choice of special characters, numbers, and capitalized letters.</p1>
+            <br><br>
+            <figure class="image is-3x4">
+                <img src="/globalAsset/images/passgen1.PNG">
+            </figure>
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+
+      <div id="modal-third-work" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <div class="box">
+            <h1> Coding Quiz </h1>
+            <br>
+            <a href="https://yhnguyen720.github.io/coding-quiz/">deployed application</a>
+            <br>
+            <a href="https://github.com/yhnguyen720/coding-quiz.git">github repo</a>
+            <br><br>
+            <p1> Test your knowledge of basic front end coding concepts. Users are given 30 seconds to complete as many questions as possible. Every wrong answer deducts time from the countdown. Users are able to enter their initials to the highscore list.</p1>
+            <br><br>
+            <figure class="image is-3x4">
+                <img src="/globalAsset/images/codequiz1.PNG">
+            </figure>
+            <figure class="image is-3x4">
+                <img src="/globalAsset/images/codequiz2.PNG">
+            </figure>
+            <figure class="image is-3x4">
+                <img src="/globalAsset/images/codequiz3.PNG">
+            </figure>
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+
+</body>
+
+</html>

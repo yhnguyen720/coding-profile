@@ -1,0 +1,67 @@
+body {
+    background-image: url("/globalAsset/images/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#name {
+    background-color: transparent;
+    margin-left: 10%;
+}
+
+#description {
+    background-color: transparent;
+    margin-right: 10%;
+}
+
+#quoteBox {
+    background-color: transparent;
+}
+
+#profilePic {
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#aboutBox {
+    background-color: rgb(255, 255, 255,0.6);
+    margin-right: 20%;
+}
+
+#workBox {
+    width: 80%;
+    margin: auto;
+}
+
+#workText {
+    opacity: 0.6;
+}
+
+#workText:hover {
+    opacity: 1;
+}
+
+#formText {
+    opacity: 0.6;
+}
+
+#formText:hover {
+    opacity: 1;
+}
+
+#btn {
+    opacity: 0.6;
+}
+
+#btn:hover {
+    opacity: 1;
+}
